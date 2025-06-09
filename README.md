@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 🐠 Interactive Aquarium Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A playful, browser-based aquarium game built with React. Users are challenged to identify specific fish by clicking on them as they swim freely across a vibrant underwater scene.
 
-## Available Scripts
+## 🌊 Live Demo  
+_Coming soon or hosted at GitHub Pages_
 
-In the project directory, you can run:
+## 🎮 Features
 
-### `npm start`
+- 🐟 Animated fish swimming left and right
+- ❓ Random "Which fish is it?" questions
+- 📸 Click to reveal fish info in a glassy modal
+- 🦈 Unique fish behavior (e.g., sharks swim differently)
+- 🌐 Responsive layout with underwater visuals
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- CSS Animations + Keyframes
+- JavaScript (ES6+)
+- Git + GitHub Pages (for deployment)
 
-### `npm test`
+## 📁 Folder Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+public/
+  assets/         # Fish images, aquarium background
+src/
+  components/     # Aquarium, FishCard, Modal, etc.
+  data/           # fishData.js
+  styles/         # CSS files
+  App.js
+  index.js
+```
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/yuranest/interactive-aquarium-game
+cd interactive-aquarium-game
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run deploy
+```
 
-### `npm run eject`
+## 📸 Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🐟 Main Aquarium Scene
+![Main Aquarium](./screenshots/screenshot-main.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ✅ Correct Answer Modal
+![Correct](./screenshots/screenshot-correct.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ❌ Incorrect Answer Modal
+![Wrong](./screenshots/screenshot-wrong.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💡 Future Ideas
 
-## Learn More
+- Drag-and-drop fish interactions
+- Score counter or timed mode
+- Sound effects and bubbles
+- Mobile touch support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👨‍💻 Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Yuriy Nesterenko**  
+[GitHub Profile](https://github.com/yuranest)

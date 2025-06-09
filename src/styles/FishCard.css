@@ -1,0 +1,66 @@
+.fish-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  animation-name: swim;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes swim {
+  0% {
+    transform: translate(100, 20) scale(1);
+  }
+  20% {
+    transform: translate(108px, -24px) scale(1.02);
+  }
+  40% {
+    transform: translate(105px, 24px) scale(0.98);
+  }
+  60% {
+    transform: translate(-106px, 22px) scale(1.01);
+  }
+  80% {
+    transform: translate(-104px, -23px) scale(1);
+  }
+  100% {
+    transform: translate(100, 10) scale(1);
+  }
+}
+
+.fish-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.shark-size {
+  width: 400px; /* 🦈 Adjust as needed */
+}
+
+/* Flip fish horizontally if going left */
+.fish-card.left .fish-image {
+  transform: scaleX(-1);
+}
+
+/* Swim left to right */
+@keyframes swim-right {
+  0% {
+    left: -60px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Swim right to left */
+@keyframes swim-left {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -60px;
+  }
+}

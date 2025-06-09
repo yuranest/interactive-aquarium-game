@@ -1,0 +1,13 @@
+.aquarium-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px; /* ✅ optional cap for large screens */
+  height: auto;
+  aspect-ratio: 16 / 9; /* ✅ ensures full background shape */
+  background-size: contain; /* ✅ show the whole image */
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  margin: 0 auto;
+}
