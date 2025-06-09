@@ -2,7 +2,8 @@
 
 A playful, browser-based aquarium game built with React. Users are challenged to identify specific fish by clicking on them as they swim freely across a vibrant underwater scene.
 
-## 🌊 Live Demo  
+## 🌊 Live Demo
+
 _Coming soon or hosted at GitHub Pages_
 
 ## 🎮 Features
@@ -51,13 +52,16 @@ npm run deploy
 ## 📸 Screenshots
 
 ### 🐟 Main Aquarium Scene
-![Main Aquarium](./screenshots/screenshot-main.png)
+
+![Main Aquarium](https://imgur.com/Qzcch73)
 
 ### ✅ Correct Answer Modal
-![Correct](./screenshots/screenshot-correct.png)
+
+![Correct](https://imgur.com/sz4y4kE)
 
 ### ❌ Incorrect Answer Modal
-![Wrong](./screenshots/screenshot-wrong.png)
+
+![Wrong](https://imgur.com/PmH8r6G)
 
 ## 💡 Future Ideas
 
