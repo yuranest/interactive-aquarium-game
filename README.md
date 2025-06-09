@@ -4,7 +4,7 @@ A playful, browser-based aquarium game built with React. Users are challenged to
 
 ## 🌊 Live Demo
 
-_Coming soon or hosted at GitHub Pages_
+Live At: https://yuranest.github.io/interactive-aquarium-game
 
 ## 🎮 Features
 
