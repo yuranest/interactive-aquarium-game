@@ -4,7 +4,16 @@ import "../styles/Aquarium.css";
 
 function Aquarium({ fishList, onSelectFish }) {
   return (
-    <div className="aquarium-container">
+    <div
+      className="aquarium-container"
+      style={{
+        backgroundImage:
+          "url('/interactive-aquarium-game/assets/aquarium-bg.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       {fishList.map((fish) => (
         <FishCard
           key={fish.id}
