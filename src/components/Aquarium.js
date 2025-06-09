@@ -4,10 +4,7 @@ import "../styles/Aquarium.css";
 
 function Aquarium({ fishList, onSelectFish }) {
   return (
-    <div
-      className="aquarium-container"
-      style={{ backgroundImage: "url('/assets/aquarium-bg.jpg')" }}
-    >
+    <div className="aquarium-container">
       {fishList.map((fish) => (
         <FishCard
           key={fish.id}
