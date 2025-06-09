@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/interactive-aquarium-game/static/css/main.4d1d651f.css",
-    "main.js": "/interactive-aquarium-game/static/js/main.456a3066.js",
+    "main.js": "/interactive-aquarium-game/static/js/main.96beb2dd.js",
     "index.html": "/interactive-aquarium-game/index.html",
     "main.4d1d651f.css.map": "/interactive-aquarium-game/static/css/main.4d1d651f.css.map",
-    "main.456a3066.js.map": "/interactive-aquarium-game/static/js/main.456a3066.js.map"
+    "main.96beb2dd.js.map": "/interactive-aquarium-game/static/js/main.96beb2dd.js.map"
   },
   "entrypoints": [
     "static/css/main.4d1d651f.css",
-    "static/js/main.456a3066.js"
+    "static/js/main.96beb2dd.js"
   ]
 }
