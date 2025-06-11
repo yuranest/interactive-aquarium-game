@@ -53,15 +53,15 @@ npm run deploy
 
 ### 🐟 Main Aquarium Scene
 
-![Main Aquarium](https://imgur.com/Qzcch73)
+![Main Aquarium](https://imgur.com/Qzcch73.png)
 
 ### ✅ Correct Answer Modal
 
-![Correct](https://imgur.com/sz4y4kE)
+![Correct](https://imgur.com/sz4y4kE.png)
 
 ### ❌ Incorrect Answer Modal
 
-![Wrong](https://imgur.com/PmH8r6G)
+![Wrong](https://imgur.com/PmH8r6G.png)
 
 ## 💡 Future Ideas
 
